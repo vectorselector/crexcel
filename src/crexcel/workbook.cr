@@ -22,7 +22,7 @@ module Crexcel
 
     @sheets : Array(Worksheet)
     @directory : String
-    @tmpdir : String = File.dirname
+    @tmpdir : String = Dir.tempdir
 
     getter name : String
     getter dirs : Dirs
